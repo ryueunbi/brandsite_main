@@ -6,21 +6,24 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    position: relative;
+}
+
 img{
     max-width: 100%;
     height: auto;
 }
 
-.container-fluid{
+#sec01>.container-fluid{
     padding: 0 !important;
 }
 
 .menu{
     width: 100%;
-    height: 50px;
+    position: fixed !important;
     top: 0;
     z-index: 9999;
-    position: fixed !important;
 }
 
 .navbar-brand{
@@ -209,7 +212,7 @@ img{
     left: 3%;
     margin: auto;
     z-index: 99999;
-    width :34px;
+    width: 34px;
     height: 55px;
 }
 
@@ -252,6 +255,25 @@ img{
     margin-top: 10%;
 }
 .banner{
-    width: 80%;
+    width: 85%;
     margin: 10%;
+}
+
+
+.nav-dots{
+    position: fixed;
+    top: 40%;
+    right: 3%;
+    width: 10px;
+    z-index: 9999;
+}
+.nav-dots .nav-link{ 
+    display: block; 
+    background: #eee; 
+    border-radius: 100px; 
+    margin-bottom: 5px; 
+}
+.nav-dots .nav-link.active{
+    background: blue;
+    color: #fff;
 }

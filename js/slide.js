@@ -18,7 +18,7 @@ $('.slick-list').slick({
 	autoplay : true,
 	dots: true,
 	infinite: true,
-	speed: 500,
+	speed: 400,
 	slidesToShow: 1,
 	centerMode: true,
 	variableWidth: true

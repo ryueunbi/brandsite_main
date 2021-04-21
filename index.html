@@ -22,9 +22,15 @@
     <link rel="stylesheet" href="css/slick.css"/>
 </head>
 <body>
+    <ul id="main_nav" class="nav nav-dots">
+        <a class="nav-link scrollto" href="#sec01"></a>
+        <a class="nav-link scrollto" href="#sec02"></a>
+        <a class="nav-link scrollto" href="#sec03"></a>
+        <a class="nav-link scrollto" href="#sec04"></a>
+    </ul>
     <!-- section 01 -->
     <header class="menu">
-        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+        <nav class="navbar navbar-expand-md navbar-light">
             <!-- logo -->
             <a href="#" class="navbar-brand">
                 <img src="images/logo.png" alt="logo">
@@ -55,41 +61,43 @@
         </nav>
     </header>
     <!-- header end -->
-    <div class="container-fluid">
-        <div class="slick-items">
-            <!-- 01 -->
-            <div>
-                <section id="hero01" class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="hero-container" data-aos="fade-in">
-                      <h1>MADE OF TRUCKS AND PET BOTTLES</h1>
-                      <p><span class="typed01" data-typed-items=" soft, light and flexible "></span></p>
+    <div id="sec01">
+        <div class="container-fluid">
+            <div class="slick-items">
+                <!-- 01 -->
+                <div>
+                    <section id="hero01" class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="hero-container" data-aos="fade-in">
+                          <h1>MADE OF TRUCKS AND PET BOTTLES</h1>
+                          <p><span class="typed01" data-typed-items=" soft, light and flexible "></span></p>
+                        </div>
+                    </section>
+                    <div class="item01 aos-init aos-animate position-absolute" data-aos="fade-up">
+                        <img src="images/bag01.png">
                     </div>
-                </section>
-                <div class="item01 aos-init aos-animate position-absolute" data-aos="fade-up">
-                    <img src="images/bag01.png">
                 </div>
-            </div>
-            <!-- 02 -->
-            <div>
-                <section id="hero02" class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="hero-container" data-aos="fade-in">
-                      <h1>FROM FIBERS TO F-ABRIC</h1>
-                      <p><span class="typed02" data-typed-items=" F-ABRIC ROTS IN PEACE "></span></p>
+                <!-- 02 -->
+                <div>
+                    <section id="hero02" class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="hero-container" data-aos="fade-in">
+                          <h1>FROM FIBERS TO F-ABRIC</h1>
+                          <p><span class="typed02" data-typed-items=" F-ABRIC ROTS IN PEACE "></span></p>
+                        </div>
+                    </section>
+                    <div class="item02 position-absolute">
+                        <img src="images/bag02.png">
                     </div>
-                </section>
-                <div class="item02 position-absolute">
-                    <img src="images/bag02.png">
                 </div>
-            </div>
-            <div>
-                <section id="hero03" class="d-flex flex-column justify-content-center align-items-center">
-                    <div class="hero-container" data-aos="fade-in">
-                      <h1>UNIQUELY BEAUTIFUL DESIGN</h1>
-                      <p><span class="typed03" data-typed-items=" Creative but tough "></span></p>
+                <div>
+                    <section id="hero03" class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="hero-container" data-aos="fade-in">
+                          <h1>UNIQUELY BEAUTIFUL DESIGN</h1>
+                          <p><span class="typed03" data-typed-items=" Creative but tough "></span></p>
+                        </div>
+                    </section>
+                    <div class="item03 position-absolute">
+                        <img src="images/bag03.png">
                     </div>
-                </section>
-                <div class="item03 position-absolute">
-                    <img src="images/bag03.png">
                 </div>
             </div>
         </div>
@@ -102,7 +110,10 @@
     <!-- section 01 end -->
 
     <!-- section 02 -->
-    <div class="container" id="sec02">
+    <div class="container-fluid" id="sec02">
+        <div class="container">
+            <h3>NEW PRODUCTS</h3>
+        </div>
         <div class="slick-list">
             <div class="slick-slide">
                 <img src="images/s01.jpg" class="banner">
