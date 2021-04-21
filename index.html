@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FREITAG</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="icon" href="" type="image/x-icon">
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <!-- AOS Plugin -->
+    <link rel="stylesheet" href="css/aos.css">    
+    <script src="js/aos.js"></script>
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -20,13 +21,14 @@
     <link rel='stylesheet' href="https://fonts.googleapis.com/css?family=Montserrat">
     <!-- slick slider -->
     <link rel="stylesheet" href="css/slick.css"/>
+    <script src="js/slick.js"></script>
 </head>
 <body>
     <ul id="main_nav" class="nav nav-dots">
-        <a class="nav-link scrollto" href="#sec01"></a>
-        <a class="nav-link scrollto" href="#sec02"></a>
-        <a class="nav-link scrollto" href="#sec03"></a>
-        <a class="nav-link scrollto" href="#sec04"></a>
+        <a class="nav-link scrollto" href="#sec01"> MAIN </a>
+        <a class="nav-link scrollto" href="#sec02"> NEW </a>
+        <a class="nav-link scrollto" href="#sec03"> Three </a>
+        <a class="nav-link scrollto" href="#sec04"> Four </a>
     </ul>
     <!-- section 01 -->
     <header class="menu">
@@ -67,19 +69,19 @@
                 <!-- 01 -->
                 <div>
                     <section id="hero01" class="d-flex flex-column justify-content-center align-items-center">
-                        <div class="hero-container" data-aos="fade-in">
+                        <div class="hero-container">
                           <h1>MADE OF TRUCKS AND PET BOTTLES</h1>
                           <p><span class="typed01" data-typed-items=" soft, light and flexible "></span></p>
                         </div>
                     </section>
-                    <div class="item01 aos-init aos-animate position-absolute" data-aos="fade-up">
+                    <div class="item01 position-absolute">
                         <img src="images/bag01.png">
                     </div>
                 </div>
                 <!-- 02 -->
                 <div>
                     <section id="hero02" class="d-flex flex-column justify-content-center align-items-center">
-                        <div class="hero-container" data-aos="fade-in">
+                        <div class="hero-container">
                           <h1>FROM FIBERS TO F-ABRIC</h1>
                           <p><span class="typed02" data-typed-items=" F-ABRIC ROTS IN PEACE "></span></p>
                         </div>
@@ -90,7 +92,7 @@
                 </div>
                 <div>
                     <section id="hero03" class="d-flex flex-column justify-content-center align-items-center">
-                        <div class="hero-container" data-aos="fade-in">
+                        <div class="hero-container">
                           <h1>UNIQUELY BEAUTIFUL DESIGN</h1>
                           <p><span class="typed03" data-typed-items=" Creative but tough "></span></p>
                         </div>
@@ -112,41 +114,42 @@
     <!-- section 02 -->
     <div class="container-fluid" id="sec02">
         <div class="container">
-            <h3>NEW PRODUCTS</h3>
+            <h1>NEW PRODUCTS</h1>
         </div>
         <div class="slick-list">
-            <div class="slick-slide">
+            <div class="slick-slide slide-item">
                 <img src="images/s01.jpg" class="banner">
+                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
             </div>
-            <div class="slick-slide">
+            <div class="slick-slide slide-item">
                 <img src="images/s02.jpg" class="banner">
+                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
             </div>
-            <div class="slick-slide">
+            <div class="slick-slide slide-item">
                 <img src="images/s03.jpg" class="banner">
+                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
             </div>
-            <div class="slick-slide">
+            <div class="slick-slide slide-item">
                 <img src="images/s04.jpg" class="banner">
+                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
             </div>
         </div>
     </div>
-    
-    
 
 
     
     <!-- script -->
     <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-    <script src="js/slick.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>   
     <script src="js/slide.js"></script>
     <script src="js/typed.min.js"></script>
     <script src="js/text.js"></script>
-    <script src="js/aos.js"></script>
-
     <script src="js/script.js"></script>
     <script>
-        AOS.init();
+        AOS.init({            
+            duration:800,
+            easing: 'ease',
+        })
     </script>
 </body>
 </html>

@@ -15,6 +15,11 @@ img{
     height: auto;
 }
 
+/* margin */
+.m-l-10{
+    margin-left: 10%;
+}
+
 #sec01>.container-fluid{
     padding: 0 !important;
 }
@@ -256,15 +261,16 @@ img{
 }
 .banner{
     width: 85%;
-    margin: 10%;
+    margin: 10% 15% 5% 15%;
 }
 
 
+/* navigation */
 .nav-dots{
     position: fixed;
     top: 40%;
-    right: 3%;
-    width: 10px;
+    right: 0%;
+    width: 78px;
     z-index: 9999;
 }
 .nav-dots .nav-link{ 
@@ -273,7 +279,7 @@ img{
     border-radius: 100px; 
     margin-bottom: 5px; 
 }
-.nav-dots .nav-link.active{
-    background: blue;
+.nav-dots .nav-link:hover{
+    background-color: #333 !important;
     color: #fff;
 }

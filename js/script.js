@@ -17,19 +17,3 @@ $(window).scroll(function(){
         $('.scroller').css('background-color', "#000");
     }
 });
-
-// nav-dots
-document.addEventListener("DOMContentLoaded", function(){		
-    var scrollSpy = new bootstrap.ScrollSpy(document.body, {
-      target: '#main_nav',
-    })
-
-    document.querySelectorAll('.scrollto').forEach(function(element){
-        element.addEventListener('click', function(e) {
-            e.preventDefault();
-            var section_name = element.getAttribute('href');
-            var offset_num = document.querySelector(section_name).offsetTop;
-              window.scrollTo({ top:(offset_num - 0), behavior:'smooth' });
-        });
-    })
-}); 

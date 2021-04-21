@@ -4,7 +4,7 @@ $(document).ready(function(){
 		dots: true,
 		speed : 500,
 		infinite: true,
-		autoplaySpeed: 6000,
+		autoplaySpeed: 5000,
 		arrows: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
@@ -18,9 +18,8 @@ $('.slick-list').slick({
 	autoplay : true,
 	dots: true,
 	infinite: true,
-	speed: 400,
+	speed: 350,
 	slidesToShow: 1,
 	centerMode: true,
 	variableWidth: true
 });
-		
