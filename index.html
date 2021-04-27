@@ -9,8 +9,8 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <!-- AOS Plugin -->
-    <link rel="stylesheet" href="css/aos.css">    
-    <script src="js/aos.js"></script>
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- jQuery library -->
@@ -24,12 +24,12 @@
     <script src="js/slick.js"></script>
 </head>
 <body>
-    <ul id="main_nav" class="nav nav-dots">
+    <!-- <ul id="main_nav" class="nav nav-dots">
         <a class="nav-link scrollto" href="#sec01"> MAIN </a>
         <a class="nav-link scrollto" href="#sec02"> NEW </a>
         <a class="nav-link scrollto" href="#sec03"> Three </a>
         <a class="nav-link scrollto" href="#sec04"> Four </a>
-    </ul>
+    </ul> -->
     <!-- section 01 -->
     <header class="menu">
         <nav class="navbar navbar-expand-md navbar-light">
@@ -112,31 +112,65 @@
     <!-- section 01 end -->
 
     <!-- section 02 -->
-    <div class="container-fluid" id="sec02">
-        <div class="container">
-            <h1>NEW PRODUCTS</h1>
-        </div>
-        <div class="slick-list">
-            <div class="slick-slide slide-item">
-                <img src="images/s01.jpg" class="banner">
-                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
-            </div>
-            <div class="slick-slide slide-item">
-                <img src="images/s02.jpg" class="banner">
-                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
-            </div>
-            <div class="slick-slide slide-item">
-                <img src="images/s03.jpg" class="banner">
-                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
-            </div>
-            <div class="slick-slide slide-item">
-                <img src="images/s04.jpg" class="banner">
-                <h3 class="d-flex justify-content-center m-l-10">F52 MIAMI VICE</h3>
+    <div id="sec02">
+        <div class="banner-section spad">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <h1 class="m-l-5">NEW PRODUCTS</h1>
+                    </div>
+                </div>
+                <div class="row m-5">
+                    <div class="col-lg-4">
+                        <div class="single-banner">
+                            <img src="images/s09.jpg" alt="">
+                        </div>
+                        <div class="inner-text text-center mt-4">
+                            <h4>SHOPPERS & TOTE BAGS</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-banner">
+                            <img src="images/s08.jpg" alt="">
+                        </div>
+                        <div class="inner-text text-center mt-4">
+                            <h4>SPORTS & TRAVEL BAGS</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="single-banner">
+                            <img src="images/s07.jpg" alt="">
+                        </div>
+                        <div class="inner-text text-center mt-4">
+                            <h4>LAPTOP BAGS</h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-
+    <!-- section 03 -->
+    <div id="sec03">
+        <div class="container-fluid sec03-bg">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="text-center">THE BIRTH OF FREITAG</h1>
+                </div>
+            </div>
+            <div class="row m-5">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <img src="images/bros-thepast-20-0.jpg" class="h-75">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 text-center">
+                    <p class="history m-3 text-justify">One of my two roommates was a guy called Markus Freitag. I only found out more about his plans one gray afternoon when he returned from one of the city's less salubrious industrial areas. In the trailer attached to his bike was an old tarp he'd managed to procure from a trucking company. He heaved the bulky, stinking monster of a tarp up the staircase and, with one final effort, dumped it into our living room. "I'm gonna make a bag out of it," he said. A bag. For cyclists, he explained, but one that would work for other people too. All made of recycled stuff like tarps and inner tubes and car safety belts. Right.</p>
+                    <a class="cta-btn" href="https://www.freitag.ch/en/history" target="_blank">more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- section 04 -->
     
     <!-- script -->
     <script src="js/popper.min.js"></script>
@@ -145,6 +179,7 @@
     <script src="js/typed.min.js"></script>
     <script src="js/text.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/aos.js"></script>
     <script>
         AOS.init({            
             duration:800,
